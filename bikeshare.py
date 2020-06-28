@@ -21,7 +21,7 @@ def get_filters():
 
 
     while True:
-        city = input("\n city would you like to filter for? (New York City, Chicago or Washington?)\n")
+        city = input("\To get started, please type in the name of the city would you like to filter for? (New York City, Chicago or Washington?)\n")
         city = city.title()
         if city not in ('Chicago', 'New York City', 'Washington'):
             print("I don't understand. Please Try again.")
@@ -43,7 +43,7 @@ def get_filters():
     # get user input for day of week (all, monday, tuesday, ... sunday)
 
     while True:
-        day = input("\nLooking to filter for a specific day? Please select from the following:( Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or type 'all').\n")
+        day = input("Are you looking to filter through a specfic day? If yes, please select one of the following days, otherwise please select 'all':( Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or type 'all').\n")
         day = day.title()
         if day not in ('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'all'):
             print("Invalid day. Try again.")
