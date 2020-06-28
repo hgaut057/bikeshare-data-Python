@@ -15,5 +15,19 @@ chicago.csv
 new_york_city.csv
 washington.csv
 
+### The Datasets Given:
+
+1. Start Time (e.g., 2017-01-01 00:07:57)
+
+2. End Time (e.g., 2017-01-01 00:20:53)
+
+3. Trip Duration (in seconds - e.g., 776)
+
+4. Start Station (e.g., Broadway & Barry Ave)
+
+5. End Station (e.g., Sedgwick St & North Ave)
+
+6. User Type (Subscriber or Customer)
+
 ### Credits
 Data provided by Motivate and by Udacity
