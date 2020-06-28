@@ -14,3 +14,6 @@ The csv files are:
 chicago.csv
 new_york_city.csv
 washington.csv
+
+### Credits
+Data provided by Motivate and by Udacity
