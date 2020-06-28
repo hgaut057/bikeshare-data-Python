@@ -29,5 +29,10 @@ washington.csv
 
 6. User Type (Subscriber or Customer)
 
+### The Chicago and New York City files also have the following two columns:
+
+1. Gender
+2. Birth Year
+
 ### Credits
 Data provided by Motivate and by Udacity
